@@ -798,7 +798,21 @@
             <!--<br>Read more in our <a href="https://dl.acm.org/doi/proceedings/10.1145/3746275">ACM MM Workshop Proceedings</a><br>-->
             <h2 id="overivew">Overview</h2>
           </div>
-          <p>With the advancement of digital technologies and gadgets, online content has become easily accessible. 
+          <p>The rapid proliferation of digital technologies and the ascent of large language models (LLMs) and agent-based AI systems have fundamentally altered the information landscape, 
+            creating a dual-use paradigm where advanced tools facilitate both the detection and the sophisticated generation of harmful content. 
+            While these technologies offer significant benefits for automated fact-checking and claim verification, they simultaneously enable the 
+            scalable production of deepfakes, personalized propaganda, and multimodal misinformation across diverse languages and platforms. 
+            Current research efforts remain largely fragmented often restricted to specific platforms, monolingual contexts, or isolated issues such as 
+            hate speech or cyber-bullying, rendering traditional counter-measures like blocking or down-ranking increasingly ineffective against actors 
+            who seamlessly switch platforms to maintain reach. To address these evolving complexities, it is no longer sufficient to rely on historical 
+            assumptions regarding content propagation; rather, the community must adopt interdisciplinary frameworks that integrate novel agentic architectures 
+            for generation, retrieval, verification, and explanation. Our DHOW-MiLLA workshop aims to consolidate these disparate research directions under one 
+            umbrella, bridging the gap between academia and industry to develop robust, transparent, and adaptive systems for a safer Internet. By focusing on 
+            critical contemporary issues, including the impact of AI-generated content on elections and geopolitical conflicts, the workshop seeks to mobilize 
+            a cohesive research community. Through rich dialogue and knowledge exchange, this initiative strives to reorient the research agenda, fostering 
+            the development of cross-platform, multilingual solutions that not only mitigate emerging risks but actively harness AI capabilities to 
+            counteract the multifaceted nature of modern misinformation.
+            <!--With the advancement of digital technologies and gadgets, online content has become easily accessible. 
             At the same time, harmful content also spread widely. There are different harmful content types present on 
             various platforms in multiple languages. The topic of harmful content is broad and covers multiple research directions. 
             Users of platforms are affected by all of them. In research, the different forms are mostly analysed separately, 
@@ -815,13 +829,14 @@
             We expect that the workshop will generate insights and
             discussions that will help advance the field of societal artificial intelligence (AI) for the
             development of safer internet. In addition to attracting high quality research contributions to the workshop, 
-            one of the aims of the workshop is to mobilise the researchers working on the related areas to form a community.
+            one of the aims of the workshop is to mobilise the researchers working on the related areas to form a community.-->
             </p>
             <!--We expect to discuss innovative research work and future research directions.
             
           <p>We believe this workshop will provide a unique opportunity for researchers and practitioners to exchange
             ideas, share latest developments, and collaborate on addressing the challenges associated with
-            harmful contents spread across the Web.  </p>-->
+            harmful contents spread across the Web and in the misinformation landscape driven by advanced
+            AI capabilities. </p>-->
 
           <!-- <strong>
             <font color="#FF0000">Important:</font> The submission deadline is 11th July, 2025 (AoE).
@@ -880,17 +895,21 @@
 
           <ul style="margin-left: 100px">
             <li>Studying different types of harmful content</li>
+            <li>Improving Factual Reliability in LLMs</li>
             <li>Computational fact-checking & Misinformation Detection</li>
             <li>Role of Generative AI in Mitigating Harmful Content</li>
             <li>Harassment, Bullying, and Hate Speech Detection </li>
             <li>Explainable AI for Harmful Content Analysis</li>
-            <li>Multimodal and Multilingual Harmful Content Detection such as fake news, spam, and troll detection.</li>
+            <li>Agentic AI Systems and Misinformation</li>
+            <li>Detection methods for LLM/VLM-generated text, audio, and imagery</li>
+            <!--<li>Multimodal and Multilingual Harmful Content Detection such as fake news, spam, and troll detection.</li>-->
             <li>Deepfake and Synthetic Media</li>
             <li>Ethical & Societal Implications of AI in Content Moderation</li>
             <li>Both Qualitative and Quantitative studies on harmful content</li>
             <li>Psychological effects of harmful content like mental health</li>
             <li>Approaches for data collection or data annotation using multimodal large models on harmful content</li>
             <li>User study on the effects of harmful content on human beings</li>
+            <li>Human-AI Collaboration and Defenses</li>
           </ul>
           <!-- <strong>
             <font color="#FF0000">Important:</font> The submission deadline is 13th June, 2025 (AoE).
@@ -900,8 +919,12 @@
 
           <!-- <strong>Format</strong>: Submitted papers (.pdf format) must use the ACM Article Template <a href="https://www.acm.org/publications/proceedings-template">https://www.acm.org/publications/proceedings-template</a>. Please remember to add Concepts and Keywords.<br> -->
           <strong>Submission Guidelines</strong>:  
-          <!--Submissions must be written in English, in ACM MM (double-column) format and must adhere to the <a href="https://acmmm2025.org/information-for-authors/">ACM MM submission policies</a>
-          The recommended setting for LaTeX is:
+          Submissions must be written in English, in ACM WWW (double-column) conference format (available at ACM Proceedings Template). 
+          <br>Short Papers: 4-6 pages (excluding references)</br>
+          <br>Long Papers: 8-12 pages (excluding references)</br>
+          Submissions must be in PDF format. All submissions will undergo single-blind peer review.</a>
+          
+          <!--The recommended setting for LaTeX is:
           <br>
            <em> \documentclass[sigconf, screen, review, anonymous]{acmart}. </em>
           <br>
@@ -1870,6 +1893,15 @@
                 <li>Gautam Kishore Shahi, University of Duisburg-Essen, Germany</li>
                 <li>Amit Kumar Jaiswal, Indian Institute of Technology (BHU) Varanasi, India</li>
                 <li>Durgesh Nandini, University of Bayreuth, Germany</li>
+                <li>Bornali Phukon, University of Illinois Urbana Champaign, USA</li>
+              </ul>
+              <ul style="margin-right: 40px">      
+                <li>Junichi Suga, Fujitsu Research, Japan</li>
+                <li>Dai Yamamoto, Fujitsu Research, Japan</li>
+                <li>Rahul Mishra, Fujitsu Research, India</li>
+                <li>Rajakrishnan P Rajkumar, IIIT Hyderabad, India</li>
+                <li>Sagar Uprety, University College London, UK</li>
+                <li>Sujit Kumar, Nanyang Technological University, Singapore</li>
               </ul>
             </div>
           </div>
@@ -2433,11 +2465,28 @@
                 <li>Koyel Ghosh, Central Institute of Technology Kokrajhar</li>
                 <li>Daniela Godoy, ISISTAN Research Institute</li>	
                 <li>Melanie Siegel, Darmstadt University of Applied Sciences</li>
-                <li>Supriya Chanda, Indian Institute of Technology, BHU</li>
+                <!--<li>Supriya Chanda, Indian Institute of Technology, BHU</li>-->
                 <li>Joachim Griesbaum, University of Hildesheim</li>
                 <li>Hossam Boudraa, Université d'Aix-Marseille</li>
                 <li>Lea Wöbbekind, University of Hildesheim</li>
                 <li>Katharina Soemer, University of Hildesheim</li>
+                <li>Parameswari Krishnamurthy, IIIT Hyderabad, India</li>
+                <li>Shifali Agrahari, IIT Guwahati, India</li>
+                <li>Dimitrios Proios, University of Geneva, Switzerland</li>
+                <li>Boya Zhang, University of Geneva, Switzerland</li>
+                <li>Ashok Urlana, TCS Research, India</li>
+                <li>Darshan Rathod, Fujitsu Research, India</li>
+                <li>Jayachander Surbiryala, University of Stavanger, Norway</li>
+                <li>Pruthvik Mishra, NIT Surat, India</li>
+                <li>Chiranjeevi Yarra, IIIT Hyderabad, India</li>
+                <li>Gyanendro Loitongbam, IIT Ropar, India</li>
+                <li>Hridoy Dutta, Deakin University, GIFT City, India</li>
+                <li>Sarah Masud, University of Copenhagen, Denmark</li>
+                <li>Shivani Kumar, University of Michigan, USA</li>
+                <li>Aadya Ranjan, IIIT Hyderabad, India</li>
+                <li>Shimizu Toshiya, Fujitsu Research, Japan</li>
+                <li>Neeva Oz, Fujitsu Research, India</li>
+                <li>Prayag Tiwari, Halmstad University, Sweden</li>
                 <!--<li>Koyel Ghosh, Bournemouth University</li>-->
               </ul>
             </div>-->
